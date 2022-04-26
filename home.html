@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header class="header-home">
+        <h1>WELCOME TO SUCCESS ZONE</h1>
+        <button onclick="document.location='#isi'">AYO JELAJAH!</button>
+    </header>
+    <main class="main-home">
+        <section class="section-home">
+            <article id="isi">
+                <h4>Apa Itu LP3I?</h4>
+                <p>LP3I ialah Institusi pendidikan vokasi bisnis dan teknologi yang sudah ada di Indonesia sejak 31
+                    tahun yang lalu. LP3I memiliki dua jenis sub-institusi yaitu College yang menaungi Pendidikan 2
+                    Tahun Siap Kerja dan Politeknik yang menaungi pendidikan jenjang D3 & D4. Saat ini LP3I terdapat di
+                    48 titik dan tersebar di hampir semua provinsi seluruh Indonesia.</p>
+            </article>
+            <article>
+                <h4>Apa Itu BEM?</h4>
+                <p>BEM adalah Badan Eksekutif Mahasiswa, dan di kampus kami, kami memiliki BEM yang sangat hebat,
+                    mengapa dikarenakan anggota-anggotanya tersebut selalu mengadakan acara untuk membantu kami dalam
+                    melatih skill, berbagi ilmu dalam bidang bekerja, selalu mengadakan event untuk membantu memperluas
+                    ilmu kami sehingga kami siap saat menjalankan pekerjaan.</p>
+            </article>
+            <article>
+                <h4>Manfaat Mengikuti BEM</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis dignissimos sapiente perferendis
+                    voluptate exercitationem consectetur in dolorem nostrum ab vitae quasi, error amet eos similique at,
+                    quibusdam doloremque odio. Numquam!</p>
+            </article>
+        </section>
+        <aside class="aside-home">
+            <h3>Submission</h3>
+            <p>Web ini dibuat oleh:</p>
+            <figure>
+                <img src="assets/img/dimas.jpg" alt="Dimas Putra Widiyanto">
+                <figcaption>Dimas Putra Widiyanto</figcaption>
+            </figure>
+            <address>
+                Asal : Depok<br>
+                No. Telp : 082110051312<br>
+                Email : <a href="mailto:putrad322@gmail.com">Kirim sekarang</a>
+            </address>
+
+            <button onclick="window.location='index.html'">Kembali</button>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Copyright &copy; 2022. LP3I</p>
+    </footer>
+
+    <script>
+        let tombol = document.getElementsByTagName('button')[1];
+        tombol.addEventListener('click', function () {
+            validasi = confirm('Yakin ingin kembali?')
+            if (validasi == true) {
+                window.location = 'index.html';
+            } else {
+                return window.location = 'home.html';
+            }
+        });
+    </script>
+</body>
+
+</html>

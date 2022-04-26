@@ -1,0 +1,271 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+}
+
+nav {
+    margin-bottom: 10vh;
+}
+
+nav>img {
+    width: 15%;
+    margin: 0.5em 0 0.5em 0.5em;
+}
+
+/* Pembuka Bagian Index */
+
+.section-index {
+    width: fit-content;
+    margin: auto;
+    padding: 1.5em;
+    border-radius: 0 1em 0 1em;
+    background: url(../img/pembuka.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.section-index>article {
+    width: 50vw;
+    padding: 1em;
+    margin-bottom: 1em;
+    background: rgba(0, 201, 255, 0.34);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(0, 201, 255, 0.3);
+}
+
+.section-index>article>p {
+    text-align: justify;
+}
+
+.section-index>aside {
+    background: url(../img/kotak.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 1px solid black;
+    border-radius: 1em;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    padding: 1em;
+    color: white;
+}
+
+.section-index>aside>button {
+    border: none;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    transition: box-shadow .15s, transform .15s;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+}
+
+.section-index>aside>button:focus {
+    box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.section-index>aside>button:hover {
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+.section-index>aside>button:active {
+    box-shadow: #3c4fe0 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+/* Penutup Bagian Index */
+
+/* Pembuka Bagian Home*/
+
+.header-home {
+    border: 1px solid black;
+    text-align: center;
+    background: url(../img/cover3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header-home>h1 {
+    border: 5px solid white;
+    color: yellow;
+    width: fit-content;
+    margin: auto;
+    margin-top: 20vh;
+    padding: 0.5em;
+    font-size: 3em;
+}
+
+.header-home>button {
+    margin-top: 20vh;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.header-home>button:active {
+    box-shadow: 0px 0px 0px 0px;
+    top: 5px;
+    left: 5px;
+}
+
+.main-home {
+    overflow: auto;
+}
+
+.section-home {
+    float: left;
+}
+
+.section-home>article {
+    width: 70vw;
+    margin-top: 2em;
+    margin-left: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.section-home>article>p {
+    text-align: justify;
+}
+
+.aside-home {
+    width: 20vw;
+    float: right;
+    margin-top: 2em;
+    margin-right: 1em;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.aside-home>h3,
+p,
+figure,
+address {
+    text-align: center;
+}
+
+.aside-home>address {
+    margin-bottom: 1em;
+}
+
+.aside-home>figure>img {
+    width: 50%;
+}
+
+.aside-home>button {
+    border: none;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    transition: box-shadow .15s, transform .15s;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+}
+
+.aside-home>button:active {
+    box-shadow: 0px 0px 0px 0px;
+    top: 5px;
+    left: 5px;
+}
+
+/* Penutup Bagian Home */
+
+/* Footer */
+
+footer {
+    color: white;
+    margin-top: 5%;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    background: #3c4fe0;
+    position: relative;
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        margin-bottom: 10%;
+    }
+
+    nav>img {
+        width: 50%;
+    }
+
+    .section-index {
+        margin-bottom: 1.5em;
+    }
+
+    .header-home>h1 {
+        margin-top: 10%;
+    }
+
+    .section-home {
+        display: block;
+    }
+
+    .main-home {
+        overflow: auto;
+    }
+
+    .section-home>article {
+        width: 80%;
+        margin: auto;
+        margin-top: 1em;
+    }
+
+    .aside-home {
+        display: block;
+        width: 100%;
+        margin: auto;
+        margin-top: 2em;
+    }
+    .aside-home>button {
+        margin-top: 1em;
+    }
+
+    footer{
+        position: relative;
+        margin-top: 1em;
+    }
+
+}
