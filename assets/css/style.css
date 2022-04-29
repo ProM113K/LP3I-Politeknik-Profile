@@ -20,7 +20,7 @@ nav>img {
     margin: auto;
     padding: 1.5em;
     border-radius: 0 1em 0 1em;
-    background: url(../img/pembuka.jpg);
+    background: url(../img/pembuka.webp);
     background-position: center;
     background-size: cover;
 }
@@ -42,7 +42,7 @@ nav>img {
 }
 
 .section-index>aside {
-    background: url(../img/kotak.jpg);
+    background: url(../img/kotak.webp);
     background-position: center;
     background-size: cover;
     border: 1px solid black;
@@ -92,7 +92,7 @@ nav>img {
 .header-home {
     border: 1px solid black;
     text-align: center;
-    background: url(../img/cover3.jpg);
+    background: url(../img/cover3.webp);
     background-position: center;
     background-size: cover;
     height: 100vh;
